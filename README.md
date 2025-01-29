@@ -64,13 +64,5 @@ This means the dataset is free to use, modify, and distribute without restrictio
 - **Best Model:** Gradient boosting achieved the highest accuracy (~87%).
 - **Key Finding:** Customers with less outstanding debt and less interest rate tend to have **Good** credit scores. Secondly, people with middle range values of debt has a higher probability of poor credit score / more chance of loan default, which is likely because of other features such as salary or interest rate. Secondly, while the top 9 features significantly impact predictions, the sum of the 15 less important features also plays a crucial role in predicting the credit score based on the shap values. Therefore, they should not necessarily be removed from the model.
 
-## 🚀 How to Run
-```bash
-# Clone this repository
-git clone https://github.com/mhmdao/credit-score-classification.git
-
-# Navigate to the project folder
-cd credit-score-classification
-
 
 
