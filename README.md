@@ -62,7 +62,7 @@ This means the dataset is free to use, modify, and distribute without restrictio
 ### **3️⃣ Results & Insights**
 - **Feature Importance**: Outstanding Debt, Late Payments and interest rates significantly impact credit scores.
 - **Best Model:** Gradient boosting achieved the highest accuracy (~87%).
-- **Key Finding:** Customers with less outstanding debt and less interest rate tend to have **Good** credit scores. Secondly, people with middle range values of debt has a higher probability of poor credit score / more chance of loan default, which is likely because of other features such as salary or interest rate. Secondly, while the top 9 features significantly impact predictions, the sum of the 15 less important features also plays a crucial role in predicting the credit score based on the shap values. Therefore, they should not necessarily be removed from the model.
+- **Key Finding:** Customers with less outstanding debt and less interest rate tend to have **Good** credit scores. Secondly, people with middle range values of debt has a higher probability of poor credit score / more chance of loan default, which is likely because of other features such as salary or interest rate. Also, while the top 9 features significantly impact predictions, the sum of the 15 less important features also plays a crucial role in predicting the credit score based on the shap values. Therefore, they should not necessarily be removed from the model.
 
 
 
